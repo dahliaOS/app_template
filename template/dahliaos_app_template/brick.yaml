@@ -1,0 +1,14 @@
+name: dahliaos_app_template
+description: dahliaOS Flutter application development template.
+version: 0.0.1
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+vars:
+  app_name:
+    type: string
+    description: The name of the application you're building.
+    prompt: What will the application be called?
+  app_description:
+    type: string
+    description: Briefly describe the application you're building.
+    prompt: How would you describe the application you're building?
