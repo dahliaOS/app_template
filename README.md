@@ -37,9 +37,10 @@ brew install mason
 mason init
 ```
 
-Running the command above Mason will generate a `mason.yml` file.
+Running the command above Mason will generate a `mason.yaml` file.
 
 ### 3. Add our template brick
+Edit the `mason.yaml` file and add our template brick, example shown below:
 
 ```yaml
 bricks:
@@ -49,7 +50,7 @@ bricks:
        path: template/dahliaos_app_template
 ```
 
-### 4. Get the bricks
+### 4. Get all registered bricks
 
 ```
 mason get
